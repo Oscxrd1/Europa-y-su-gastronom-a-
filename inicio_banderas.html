@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gastronomía de Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f5;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .intro {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .paises {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+        .pais {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .pais img {
+            width: 100px;
+            height: 65px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .pais h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .pais a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .pais a:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gastronomía de Europa</h1>
+    <p>Explora los sabores y biografías gastronómicas de algunos países europeos</p>
+</header>
+
+<main>
+    <div class="intro">
+        La cocina europea refleja una mezcla de historia, geografía y tradición. Descubre la esencia de cada país a través de sus platos típicos e ingredientes.
+    </div>
+
+    <div class="paises">
+        <div class="pais">
+            <img src="https://flagcdn.com/w320/gb.png" alt="Inglaterra">
+            <h3>Inglaterra</h3>
+            <a href="inglaterra.html">Ver Biografía</a>
+        </div>
+        <div class="pais">
+            <img src="https://flagcdn.com/w320/fr.png" alt="Francia">
+            <h3>Francia</h3>
+            <a href="francia.html">Ver Biografía</a>
+        </div>
+        <div class="pais">
+            <img src="https://flagcdn.com/w320/de.png" alt="Alemania">
+            <h3>Alemania</h3>
+            <a href="alemania.html">Ver Biografía</a>
+        </div>
+        <div class="pais">
+            <img src="https://flagcdn.com/w320/es.png" alt="España">
+            <h3>España</h3>
+            <a href="españa.html">Ver Biografía</a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Proyecto educativo | Contacto: ejemplo@correo.com</p>
+</footer>
+
+</body>
+</html>
